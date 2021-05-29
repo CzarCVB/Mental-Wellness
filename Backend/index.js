@@ -10,6 +10,8 @@ const cors = require('cors')
 const flash = require('connect-flash')
 const cookieParser = require('cookie-parser')
 
+const port = process.env.PORT || 3000;
+
 mongoose.connect('mongodb+srv://members:9582533456@cluster0.03rdy.mongodb.net/Mental_Wellness',{
     useNewUrlParser:true,
     useUnifiedTopology:true,
@@ -86,6 +88,6 @@ app.get('/blog/:section', async(req,res)=>{
     res.send(data);
 })
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log('Server started')
 })
