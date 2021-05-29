@@ -1,21 +1,24 @@
 import React from "react";
-import Header from "../header/header.component";
 import CarouselComponent from "../carousel/carousel.component";
 import CollectionOverview from "../collection-overview/collection-overview.component";
-import { ShopData } from "../../shopdata";
-
+import { createStructuredSelector } from "reselect";
+import { connect } from "react-redux";
+import { selectCollections } from "../../redux/shop/shop.selector";
 import "./store.styles.scss";
 
-const Store = () => (
+const Store = ({ collections }) => (
   <div>
-    <Header />
     <CarouselComponent />
     <div className="container my-4">
-      {ShopData.map((item) => (
-        <CollectionOverview id={item.id} item={item} />
+      {collections.map((item) => (
+        <CollectionOverview key={item.id} item={item} />
       ))}
     </div>
   </div>
 );
 
-export default Store;
+const mapStateToProps = createStructuredSelector({
+  collections: selectCollections,
+});
+
+export default connect(mapStateToProps)(Store);

@@ -1,6 +1,5 @@
 import React from "react";
 
-import Header from "../../components/header/header.component";
 import { connect } from "react-redux";
 import StripeCheckoutButton from "../../components/stripe-button/stripe-button.component";
 import CheckoutItem from "../../components/checkout-item/checkout-item.component";
@@ -14,7 +13,6 @@ import {
 import "./checkout.styles.scss";
 const CheckoutPage = ({ total, cartItems }) => (
   <div>
-    <Header />
     <div className="checkout-page">
       <div className="checkout-header">
         <div className="header-block">
