@@ -1,0 +1,23 @@
+.links-section{
+    overflow-x: hidden;
+    ul{
+        list-style: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 0%;
+        overflow-x: scroll;
+        &::-webkit-scrollbar {
+            display: none;
+          }
+        margin-top: 1.3%;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        li{
+            padding-right: 16px;
+        }
+    }
+}
