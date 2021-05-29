@@ -10,7 +10,7 @@
   "scripts": {
     "client": "cd frontend && npm start",
     "server": "nodemon index.js",
-    "build": "cd frontend && npm run build",
+    "build": "npm run build",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn frontend\"",
     "start": "node index.js"
   },
