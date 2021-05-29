@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.17.0",
+    "npm": "6.14.3"
+  },
+  "scripts": {
+    "client": "cd frontend && npm start",
+    "server": "nodemon index.js",
+    "build": "cd frontend && npm run build",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn frontend\"",
+    "start": "node index.js"
+  },
+  "author": "Mental Wellness",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "stripe": "^8.150.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
