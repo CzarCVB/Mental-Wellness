@@ -128,7 +128,33 @@ module.exports = [
                 subpara2:"",
             },
         ]
-    }
+    },
+    {
+            title:'Stress',
+            about:"Stress is a feeling of emotional or physical tension. It can come from any event or thought that makes you feel frustrated, angry, or nervous. Stress is your body's reaction to a challenge or demand.",
+            blog:[
+                {
+                    name:"Stress Awareness Isn’t A Strategy — It’s Only A Start",
+                    date:"May 10th, 2021",
+                    para1:"With unprecedented stress levels wreaking havoc on workers’ lives, from physical and mental burnout to the impact on clinical health, awareness without accompanying action just isn’t enough.",
+                    para2:"According to the American Psychological Association, 84% of U.S. adults are experiencing prolonged stress in 2021, and experts claim that “many employers aren’t willing to engage with the interior lives of their workers.” The most important thing we as leaders can do is guide them to the other side of overwhelm, where they feel empowered to manage their day-to-day stressors before they become insurmountable obstacles to health and productivity.",            
+                    para3:"Being “on the lookout” for stress to manifest in the workplace isn’t going to give employees the permission and resources to manage the stress they’re already experiencing. Here are steps you can take to elevate your company’s stress conversation beyond awareness and into action.",
+                    subheading1:"Bring multifaceted stress awareness — and an action plan — to leadership",
+                    subpara1:"Leaders need to agree that stress is real, problematic and supportable on an organizational level. Your employees are watching their managers and executive staff for cues that it’s OK to struggle with some degree of stress in their lives.",
+                    subpara2:"Once leaders are on the same page, they can embrace efforts to help employees manage their mental health and can truly lead by example. Encourage managers to talk openly with employees about the unique stress of getting kids online for school in the morning, being unable to gather freely with friends and family or planning to return to the office.",
+                },
+                {
+                    name:"The good stress: How eustress helps you grow",
+                    date:"April 23rd, 2021",
+                    para1:"Americans are more stressed than ever — but if you’re a glass-half-full kind of person, that statistic might not be so terrifying. There are two types of stress: the awful, normal stress that leads to late-night hair-tearing sessions, and eustress, or good stress",
+                    para2:"Eustress pushes you to new heights. It encourages you to dive into new career experiences, finish that tough workout, and take on that major renovation project.",            
+                    para3:"",
+                    subheading1:"How is Eustress Good For You?",
+                    subpara1:"No, eustress doesn’t always feel good. You’re preoccupied, your heart’s pounding, and you can feel the adrenaline in your veins. But in reality, it’s good for you.",
+                    subpara2:"It’s also essential for our physical wellbeing. Anxious about that tough workout? Eustress powers you through. Sure, it’s difficult, but no one got biceps by lazing on the couch.",
+                },
+            ]
+        }
 ]
 
 // {

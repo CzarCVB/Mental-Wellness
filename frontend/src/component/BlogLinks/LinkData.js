@@ -4,9 +4,5 @@ export const LinkData = [
     { title: 'Mindfulness', url: '/blog/Mindfulness' },
     { title: 'Phobias', url: '/blog/Phobias' },
     { title: 'Paranoia', url: '/blog/Paranoia' },
-    // { title: 'Stress', url: '#' },
-    // { title: 'Science', url: '#' },
-    // { title: 'Health', url: '#' },
-    // { title: 'Style', url: '#' },
-    // { title: 'Travel', url: '#' },
+    { title: 'Stress', url: '/blog/Stress' },
   ];

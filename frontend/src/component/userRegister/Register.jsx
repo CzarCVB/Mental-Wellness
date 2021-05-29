@@ -1,10 +1,32 @@
-import React from 'react'
+import React ,{useState} from 'react'
 import {ReactComponent as Logo} from './img-2.svg'
 import {Link } from 'react-router-dom'
 
 import '../userLogin/login.scss'
 
-const Register = () => {
+const Register = ({history}) => {
+    const [username, setUsername] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const onSubmit = (event, username, email, password) => {
+        event.preventDefault();
+        fetch("http://localhost:3000/signup", {
+            method: "POST",
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({
+                username:username,
+                email:email,
+                password: password
+            })
+        })
+        .then(response=>response.text())
+        .then(data=>{
+            console.log(data);
+            history.push("/login");
+        })
+    };
+
     return (
         <div className="base-container">
             <div className="login-header">
@@ -15,21 +37,21 @@ const Register = () => {
                      <Logo />
                 </div>
                 <div className="login-form">
-                    <form >
+                    <form onSubmit={(event) => onSubmit(event, username, email, password)}>
                         <div className="form-group">
                             <label htmlFor="username">Username</label>
-                            <input type="text" name="username" placeholder="username" />
+                            <input type="text" name="username" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="username" />
                         </div>
                         <div className="form-group">
                             <label htmlFor="email">Email</label>
-                            <input type="email" name="email" placeholder="email" />
+                            <input type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="email" />
                         </div>
                         <div className="form-group">
                             <label htmlFor="password">Password</label>
-                            <input type="password" name="password" placeholder="password" />
+                            <input type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="password" />
                         </div>
                         <div className="btn">
-                            <button type="button">
+                            <button type="submit">
                                 Register
                             </button>
                         </div>

@@ -16,7 +16,7 @@ const seedDB = async () => {
       console.log("Connection Done");
     });
     await Blog.deleteMany({});
-    for(let i=0;i<5;i++){
+    for(let i=0;i<6;i++){
         const blog = new Blog(sectionData[i])
         await blog.save();
     }

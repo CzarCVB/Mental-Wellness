@@ -1,5 +1,5 @@
-import React ,{useState,useEffect} from 'react'
-import {Link, useParams} from 'react-router-dom'
+import React  from 'react'
+import {Link} from 'react-router-dom'
 
 const BlogMain = ({data}) => {
     
@@ -10,7 +10,7 @@ const BlogMain = ({data}) => {
                 { data.blog &&
                         data.blog.map(section=>{
                             return (
-                                <article className="blog-post">
+                                <article className="blog-post" key={section._id}>
                                     <h2 className="blog-post-title mt-5">{section.name}</h2>
                                     <p className="blog-post-meta">{section.date}</p>
                                     <p>{section.para1}</p>
