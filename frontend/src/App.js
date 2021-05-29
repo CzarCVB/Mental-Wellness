@@ -7,7 +7,6 @@ import BlogPage from './pages/BlogPage/Blog'
 import Homepage from './pages/Homepage/Homepage'
 
 //component
-import Navbar from './component/Navbar/Navbar'
 import Footer from './component/Footer/Footer'
 
 import './App.css';
@@ -15,7 +14,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Switch>
           <Route path='/blog/:section' component={BlogPage} />
           <Route exact path='/login' component={SignIn_SignUp} />
