@@ -36,7 +36,10 @@ const sessionConfig ={
         sameSite: false
     }
 }
-app.use(cors())
+app.use(cors({
+    origin: 'http://localhost:3001',
+    credentials: true
+}));
 app.use(cookieParser())
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
@@ -52,7 +55,7 @@ app.get('/test',(req,res)=>{
     res.send("Working")
 })
 
-app.post('/login',passport.authenticate('local',({failureFlash:true,failureRedirect:'/login'})),async(req,res)=>{
+app.post('/login',passport.authenticate('local',({failureFlash:true})),async(req,res)=>{
     try{
         res.json(req.session);
     }catch(e){
@@ -83,6 +86,11 @@ app.get('/logout',(req,res)=>{
 app.get('/blog/:section', async(req,res)=>{
     const {section} = req.params;
     const data = await Blog.findOne({title: section}) ;
+    res.send(data);
+})
+
+app.get('/blog', async(req,res)=>{
+    const data = await Blog.find();
     res.send(data);
 })
 
