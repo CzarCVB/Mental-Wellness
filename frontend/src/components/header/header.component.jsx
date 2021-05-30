@@ -20,16 +20,17 @@ const Header = ({ history, toggleCartHidden, hidden, itemCount }) => {
 
   const logout = (event) => {
     event.preventDefault();
-    // fetch("https://mental-wellness.herokuapp.com/logout", {
-    //         method: "GET",
-    //         headers: {'Content-Type': 'application/json'},
-    //         credentials: "include"
-    // });
-    fetch("http://localhost:3000/logout", {
+    fetch("https://mental-wellness.herokuapp.com/logout", {
             method: "GET",
             headers: {'Content-Type': 'application/json'},
             credentials: "include"
     });
+    //Use this for localhost
+    // fetch("http://localhost:3000/logout", {
+    //         method: "GET",
+    //         headers: {'Content-Type': 'application/json'},
+    //         credentials: "include"
+    // });
     cookies.remove('user');
     window.location.reload();
   }
