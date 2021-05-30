@@ -43,7 +43,7 @@ const sessionConfig ={
     }
 }
 app.use(cors({
-    origin: process.env.NODE_ENV !== "production"? 'http://localhost:3001' : 'https://60b2b3712cd90d48151dbdc8--modest-ride-5e0945.netlify.app',
+    origin: process.env.NODE_ENV !== "production"? 'http://localhost:3001' : 'https://modest-ride-5e0945.netlify.app',
     credentials: true
 }));
 app.use(cookieParser())
