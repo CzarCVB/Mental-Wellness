@@ -43,6 +43,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+In an increasingly connected world, the safe sanctuary of privacy pockets becomes more pronounced when matters of mental health are concerned. Hence the need for a project like "Sakura". This website attempts to offer a free space to both local and global communities, where they may communicate, interact and collaborate with each other. Mimicking the ambience of therapy groups and one-to-one assistance of psychologist sessions, this Project incorporates a bundle of features that can help in the early detection, treatment and rehabilitation of individuals struggling with mental disorders. The website is primarily designed as a self-help zone where one can learn about mental disorders through the FAQ or blog sections, seek emotional support via anonymous interactions under the community page, order assistive devices or books for mental upkeep through the dedicated store and get an on-click appointment with leading psychologists around the world. As they say it, Sakura can both amuse and engage with the visitor.
 
 ### Built With
 <ul>
