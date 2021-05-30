@@ -66,7 +66,7 @@ const Header = ({ history, toggleCartHidden, hidden, itemCount }) => {
             <li className="nav-item text-center mx-2 mx-lg-1">
               <Link to="/faq" className="nav-link">
                 <div>
-                  <i className="fa fa-envelope fa-lg mb-1"></i>
+                   <i class="fa fa-question-circle fa-lg mb-1"></i>
                 </div>
                 FAQs
               </Link>
