@@ -37,17 +37,17 @@ const BlogMain = ({data}) => {
                             Archieves
                         </h4>
                         <ol className="list-unstyled mb-0">
-                            <li><Link to="/blog">March 2021</Link></li>
-                            <li><Link to="/blog">March 2021</Link></li>
-                            <li><Link to="/blog">March 2021</Link></li>
-                            <li><Link to="/blog">March 2021</Link></li>
-                            <li><Link to="/blog">March 2021</Link></li>
-                            <li><Link to="/blog">March 2021</Link></li>
-                            <li><Link to="/blog">March 2021</Link></li>
-                            <li><Link to="/blog">March 2021</Link></li>
-                            <li><Link to="/blog">March 2021</Link></li>
-                            <li><Link to="/blog">March 2021</Link></li>
-                            <li><Link to="/blog">March 2021</Link></li>
+                            <li><Link to="/blog/Anxiety">March 2021</Link></li>
+                            <li><Link to="/blog/Anxiety">Feb 2021</Link></li>
+                            <li><Link to="/blog/Anxiety">Jan 2021</Link></li>
+                            <li><Link to="/blog/Anxiety">Dec 2020</Link></li>
+                            <li><Link to="/blog/Anxiety">Nov 2020</Link></li>
+                            <li><Link to="/blog/Anxiety">Oct 2020</Link></li>
+                            <li><Link to="/blog/Anxiety">Sept 2020</Link></li>
+                            <li><Link to="/blog/Anxiety">Aug 2020</Link></li>
+                            <li><Link to="/blog/Anxiety">July 2020</Link></li>
+                            <li><Link to="/blog/Anxiety">June 2020</Link></li>
+                            <li><Link to="/blog/Anxiety">March 2020</Link></li>
                         </ol>
                     </div>
                     <div className="p-4">
