@@ -11,7 +11,7 @@ const Register = ({history}) => {
 
     const onSubmit = (event, username, email, password) => {
         event.preventDefault();
-        fetch("http://localhost:3000/signup", {
+        fetch("https://mental-wellness.herokuapp.com/signup", {
             method: "POST",
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
