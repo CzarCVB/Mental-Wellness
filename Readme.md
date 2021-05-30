@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/bhardwajdisha/Mental-Wellness">
-    <img src="images/logo1.png" alt="Logo" width="80" height="80">
+    <img src="images/logo1.png" alt="Logo" width="80" height="80" color='white'>
   </a>
 
   <h3 align="center">Project Sakura</h3>
