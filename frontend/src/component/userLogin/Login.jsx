@@ -10,15 +10,7 @@ const Login = ({history}) => {
 
     const tryLogin = (event, username, password) => {
         event.preventDefault();
-        // fetch("https://mental-wellness.herokuapp.com/login", {
-        //     method: "POST",
-        //     headers: {'Content-Type': 'application/json'},
-        //     body: JSON.stringify({
-        //         username:username,
-        //         password: password
-        //     })
-        // })
-        fetch("http://localhost:3000/login", {
+        fetch("https://mental-wellness.herokuapp.com/login", {
             method: "POST",
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -26,6 +18,14 @@ const Login = ({history}) => {
                 password: password
             })
         })
+        // fetch("http://localhost:3000/login", {
+        //     method: "POST",
+        //     headers: {'Content-Type': 'application/json'},
+        //     body: JSON.stringify({
+        //         username:username,
+        //         password: password
+        //     })
+        // })
         .then(response=>response.json())
         .then(data=>{
             console.log(data);
