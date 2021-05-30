@@ -16,7 +16,7 @@ const path = require("path")
 if (process.env.NODE_ENV !== "production") require("dotenv").config()
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY)
 
-mongoose.connect('mongodb+srv://members:9582533456@cluster0.03rdy.mongodb.net/Mental_Wellness',{
+mongoose.connect(process.env.MONGO_URL,{
     useNewUrlParser:true,
     useUnifiedTopology:true,
     useCreateIndex:true
