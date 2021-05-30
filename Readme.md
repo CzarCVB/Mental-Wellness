@@ -95,9 +95,9 @@ This is an example of how to list things you need to use the software and how to
 ## Contact
 
 Disha Bhardwaj  [@github](https://github.com/bhardwajdisha) 
-<li>  Akshat Batra  [@github](https://github.com/Akshat-Batra) </li>
-</li> Chaitanya Vishnu Bhatt [@github](https://github.com/CzarCVB)</li>
-</ul>
+Akshat Batra  [@github](https://github.com/Akshat-Batra) 
+Chaitanya Vishnu Bhatt [@github](https://github.com/CzarCVB)
+
 Project Link: [](https://github.com/bhardwajdisha/Mental-Wellness)
 
 <!-- ACKNOWLEDGEMENTS -->
