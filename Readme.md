@@ -95,6 +95,7 @@ This is an example of how to list things you need to use the software and how to
 ## Contact
 
 Disha Bhardwaj  [@github](https://github.com/bhardwajdisha) 
+<br>
 Akshat Batra  [@github](https://github.com/Akshat-Batra) 
 Chaitanya Vishnu Bhatt [@github](https://github.com/CzarCVB)
 
