@@ -10,7 +10,15 @@ const Login = ({history}) => {
 
     const tryLogin = (event, username, password) => {
         event.preventDefault();
-        fetch("https://mental-wellness.herokuapp.com/login", {
+        // fetch("https://mental-wellness.herokuapp.com/login", {
+        //     method: "POST",
+        //     headers: {'Content-Type': 'application/json'},
+        //     body: JSON.stringify({
+        //         username:username,
+        //         password: password
+        //     })
+        // })
+        fetch("http://localhost:3000/login", {
             method: "POST",
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -25,6 +33,7 @@ const Login = ({history}) => {
                 const cookies = new Cookies();
                 cookies.set('user', data.passport.user, { path: '/' });
                 history.push("/");
+                window.location.reload();
             }
         })
         .catch(e => {
