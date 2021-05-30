@@ -93,10 +93,10 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- CONTACT -->
 ## Contact
-<ul>
-<li>  Disha Bhardwaj - [@github](https://github.com/bhardwajdisha) </li>
-<li>  Akshat Batra - [@github](https://github.com/Akshat-Batra) </li>
-</li> Chaitanya Vishnu Bhatt - [@github](https://github.com/CzarCVB)</li>
+
+Disha Bhardwaj  [@github](https://github.com/bhardwajdisha) 
+<li>  Akshat Batra  [@github](https://github.com/Akshat-Batra) </li>
+</li> Chaitanya Vishnu Bhatt [@github](https://github.com/CzarCVB)</li>
 </ul>
 Project Link: [](https://github.com/bhardwajdisha/Mental-Wellness)
 
