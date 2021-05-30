@@ -100,7 +100,7 @@ Akshat Batra  [@github](https://github.com/Akshat-Batra)
 <br>
 Chaitanya Vishnu Bhatt [@github](https://github.com/CzarCVB)
 
-Project Link: [](https://github.com/bhardwajdisha/Mental-Wellness)
+Project Link: [Project|Sakura](https://github.com/bhardwajdisha/Mental-Wellness)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
