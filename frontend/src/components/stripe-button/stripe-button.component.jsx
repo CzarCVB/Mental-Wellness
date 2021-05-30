@@ -9,7 +9,7 @@ const StripeCheckoutButton = ({ price }) => {
 
   const onToken = (token) => {
     axios({
-      url: "payment",
+      url: "https://mental-wellness.herokuapp.com/payment",
       method: "post",
       data: {
         amount: priceForStripe,
