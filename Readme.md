@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/bhardwajdisha/Mental-Wellness">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo1.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Project Sakura</h3>
@@ -34,7 +34,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#demo">Demo</a></li>
     <li><a href="#features">Features</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -44,15 +44,68 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-
 ### Built With
 <ul>
-    <li> 
-        Front-End : React ,Redux, Bootstrap 
-    </li>
-    <li>
-        Back-End : NodeJs, ExpressJs
-    </li>
+    <li> Front-End : React ,Redux, Bootstrap </li>
+    <li>Back-End : NodeJs, ExpressJs</li>
     <li>Database : MongoDB</li>
 </ul>
 
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/bhardwajdisha/Mental-Wellness.git
+   ```
+2. Install NPM packages on both the networks Frontend as well as Backend
+   ```sh
+   npm install
+   ```
+
+<!-- Demo EXAMPLES -->
+## Demo
+
+
+<!-- Features-->
+## Features
+
+- Consult    - Book a session with a professional
+- Community  - Post anonymously about your problems
+- Blogs      - Get various blogs related to the topics like anxiety,depression,stress,etc
+- E-Commerce - Buy various stress relief prroducts
+- Game       - Play Snake-game to refresh your mind
+- FAQs       - Get answers about the topics related to mental-wellness
+- Authentication - Users can login as well as register themselves
+
+
+<!-- CONTACT -->
+## Contact
+<ul>
+<li>  Disha Bhardwaj - [@github](https://github.com/bhardwajdisha) </li>
+<li>  Akshat Batra - [@github](https://github.com/Akshat-Batra) </li>
+</li> Chaitanya Vishnu Bhatt - [@github](https://github.com/CzarCVB)</li>
+</ul>
+Project Link: [](https://github.com/bhardwajdisha/Mental-Wellness)
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Bootstrap](https://getbootstrap.com/)
+* [GitHub Pages](https://pages.github.com)
+* [Animate.css](https://daneden.github.io/animate.css)
+* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
+* [Font Awesome](https://fontawesome.com)
+* [Stripe](https://stripe.com/en-in)
+* [React-Icons](https://react-icons.github.io/react-icons/)
