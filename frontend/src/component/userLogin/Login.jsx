@@ -18,6 +18,7 @@ const Login = ({history}) => {
                 password: password
             })
         })
+        //For LocalHost
         // fetch("http://localhost:3000/login", {
         //     method: "POST",
         //     headers: {'Content-Type': 'application/json'},

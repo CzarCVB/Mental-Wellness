@@ -14,7 +14,7 @@ const BlogPage = () => {
  
     useEffect(() => {
         function fetchSectionData(section){
-            axios.get(`https://mental-wellness.herokuapp.com/blog/${section.section}`)
+            axios.get(`https://mental-wellness.herokuapp.com/blog/${section.section}`) // local-host: http://localhost:3000/blog/${ssection.section}
             .then(res=>{
                 setdata(res.data);
             })

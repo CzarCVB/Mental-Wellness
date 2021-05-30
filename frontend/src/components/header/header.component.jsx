@@ -25,6 +25,7 @@ const Header = ({ history, toggleCartHidden, hidden, itemCount }) => {
             headers: {'Content-Type': 'application/json'},
             credentials: "include"
     });
+    //Use this for localhost
     // fetch("http://localhost:3000/logout", {
     //         method: "GET",
     //         headers: {'Content-Type': 'application/json'},
