@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+#confCard {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  position: fixed;
+  top: 20vh;
+  width: 90%;
+  padding: 1rem;
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+
+#confCard h2 {
+  margin: 0;
+  padding: 0 1rem;
+}
+#confCard #titlez {
+  padding: 1rem;
+  text-align: right;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}
+#confCard #desc {
+  margin-top: 20%;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+}
+#confCard #actionz {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin-top: 30%;
+}
+
+#cardText {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+#titleTotal {
+  padding: 2.5em 1.5em 1.5em 1.5em;
+  flex: 1;
+}
+
+#portada {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-image: url("https://pixabay.com/get/g8dcd740037b28e748db3eb957aafd91e528fe17261e7c9484e4cb4b990b031a89e5c9c9b4951c9690c33cfb1c3bf837e_640.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  flex: 1;
+}
+
+#buton {
+  border: none;
+  background: none;
+  font-size: 24px;
+  color: #8bc34a;
+  cursor: pointer;
+  transition:.5s;
+  &:hover{
+    color: #4CAF50  ;
+    transform: rotate(22deg)
+  }
+}
+@media (min-width: 768px) {
+  #confCard {
+    width: 40rem;
+    left: calc(50% - 20rem);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
