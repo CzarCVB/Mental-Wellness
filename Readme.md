@@ -78,6 +78,8 @@ This is an example of how to list things you need to use the software and how to
 <!-- Demo EXAMPLES -->
 ## Demo
 
+![Project-Sakura](https://user-images.githubusercontent.com/67470541/120091922-ed5dc780-c12c-11eb-89c7-821d399a7f17.gif)
+
 
 <!-- Features-->
 ## Features
