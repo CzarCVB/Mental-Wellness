@@ -9,7 +9,7 @@ import "./store.styles.scss";
 const Store = ({ collections }) => (
   <div>
     <CarouselComponent />
-    <div className="container my-4">
+    <div className="container container-store my-4">
       {collections.map((item) => (
         <CollectionOverview key={item.id} item={item} />
       ))}

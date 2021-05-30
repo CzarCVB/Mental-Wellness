@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "mental_wellness_backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,23 +7,32 @@
     "node": "14.17.0",
     "npm": "6.14.3"
   },
-  "scripts": {
-    "client": "cd frontend && npm start",
-    "server": "nodemon index.js",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn frontend\"",
-    "start": "node index.js"
-  },
-  "author": "Mental Wellness",
-  "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.12",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
     "stripe": "^8.150.0"
   },
   "devDependencies": {
     "concurrently": "^6.2.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "scripts": {
+    "server": "nodemon index.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn frontend\"",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
 }
