@@ -20,16 +20,17 @@ const Header = ({ history, toggleCartHidden, hidden, itemCount }) => {
 
   const logout = (event) => {
     event.preventDefault();
-    // fetch("https://mental-wellness.herokuapp.com/logout", {
-    //         method: "GET",
-    //         headers: {'Content-Type': 'application/json'},
-    //         credentials: "include"
-    // });
-    fetch("http://localhost:3000/logout", {
+    fetch("https://mental-wellness.herokuapp.com/logout", {
             method: "GET",
             headers: {'Content-Type': 'application/json'},
             credentials: "include"
     });
+    //Use this for localhost
+    // fetch("http://localhost:3000/logout", {
+    //         method: "GET",
+    //         headers: {'Content-Type': 'application/json'},
+    //         credentials: "include"
+    // });
     cookies.remove('user');
     window.location.reload();
   }
@@ -65,7 +66,7 @@ const Header = ({ history, toggleCartHidden, hidden, itemCount }) => {
             <li className="nav-item text-center mx-2 mx-lg-1">
               <Link to="/faq" className="nav-link">
                 <div>
-                  <i className="fa fa-envelope fa-lg mb-1"></i>
+                   <i class="fa fa-question-circle fa-lg mb-1"></i>
                 </div>
                 FAQs
               </Link>

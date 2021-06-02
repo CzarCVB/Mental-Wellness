@@ -1,0 +1,59 @@
+#commBtnz, #commBtnz{
+    font: 16px/30px 'opensans-bold', sans-serif;
+    background: #11ABB0;
+    display: inline-block;
+     text-decoration: none;
+    letter-spacing: 0;
+    color: #fff;
+     padding: 12px 20px;
+     margin-bottom: 18px;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    
+    -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+     -o-transition: all .2s ease-in-out;
+     -ms-transition: all .2s ease-in-out;
+     transition: all .2s ease-in-out;
+    
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    border-radius: 0px;
+}
+
+#commBtnz:hover,
+{
+   background: #3d4145;
+   color: #fff;
+}
+
+#commBtnz:active,
+ {
+   background: #3d4145;
+   color: #fff;
+}
+
+#commBtnz.full-width,
+ {
+	width: 100%;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	text-align: center;
+}
+#commBtnz::-moz-focus-inner{
+    border: 0;
+    padding: 0;
+}
+
+#anchorette {
+        text-decoration: none;
+        outline: 0;
+        color: #11ABB0;
+     
+        -webkit-transition: color .3s ease-in-out;
+        -moz-transition: color .3s ease-in-out;
+        -o-transition: color .3s ease-in-out;
+        transition: color .3s ease-in-out;
+}

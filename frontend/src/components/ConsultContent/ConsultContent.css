@@ -1,0 +1,90 @@
+/* About Section */
+
+#consult-box {
+    display: flex;
+	box-shadow: 0 0 90px rgba(0,0,0,0.5);
+	border-radius: 20px;
+	background-color: #FFF;
+	margin-bottom: 35px;
+	width: 64rem;
+	margin-left: 25%;
+ }
+
+#imgBox {
+    flex: 1;
+    height: 100%;
+    box-shadow: 0 0 90 0px rgba(0,0,0,0.175);
+	width: 100%;
+	margin-right: 15px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#why1, #why2 {
+	flex: 1;
+}
+
+#info-box{
+    flex: 2;
+	margin-left: 0px !important;
+	margin-right: 25px !important;
+}
+
+#info-box h4 {
+	font-size: 22px;
+	margin: 0 0 10px 0;
+}
+#info-box h2 {
+	margin-top: 15px;
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+#info-box h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #e91e63 0%, #ff005c 100%);
+	height: 4px;
+	width: 230px;
+	bottom: 0;
+	left: 0;
+}
+
+#WhyCont {
+	display: flex;
+	margin-top: 0 !important;
+	margin-bottom: 20px;
+}
+#consult .consult-text li {
+	margin-bottom: 6px;
+	margin-left: 6px;
+	list-style: none;
+	padding: 0;
+	margin-top: 0 !important;
+}
+#consult .consult-text li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	color: #5ca9fb;
+	font-size: 11px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+#docImage {
+	background: #fff;
+	border-right: 0;
+	box-shadow: 0 0 90px rgba(3,3,3,0.175);    
+    margin: auto;
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20% 20%;
+    border-top-right-radius: 20% 20%;
+    border-bottom-right-radius: 20% 20%;
+    border-bottom-left-radius: 20% 20%;
+}
+#consult p {
+	line-height: 24px;
+	margin: 10px 0;
+}
